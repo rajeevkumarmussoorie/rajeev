@@ -39,13 +39,14 @@
 
     main {
       text-align: center;
-      padding: 60px 20px;
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
     }
 
     p {
       font-size: 1.1rem;
       color: #333;
-      margin: 0;
     }
 
     .divider {
@@ -53,6 +54,41 @@
       height: 2px;
       background-color: #444;
       margin: 25px auto;
+    }
+
+    /* Research Papers Section */
+    .section-title {
+      font-size: 1.6rem;
+      margin-top: 50px;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      border-bottom: 1px solid #ccc;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    ol {
+      text-align: left;
+      display: inline-block;
+      margin-top: 20px;
+      padding-left: 20px;
+      font-size: 1rem;
+      line-height: 1.8;
+    }
+
+    a {
+      color: #1a237e;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .meta {
+      font-size: 0.9rem;
+      color: #555;
     }
 
     footer {
@@ -74,16 +110,41 @@
   <main>
     <div class="divider"></div>
     <p>Welcome to the official site</p>
+
+    <div class="section-title">My Research Papers</div>
+
+    <ol>
+      <li>
+        Constitutional Interpretation in Modern Judicial Systems<br>
+        <span class="meta">Published: Journal of Legal Studies (2025)</span><br>
+        <a href="paper1.pdf" target="_blank">View Full Paper</a>
+      </li>
+      <br>
+
+      <li>
+        Comparative Analysis of Contract Law Across Jurisdictions<br>
+        <span class="meta">Published: International Law Review (2024)</span><br>
+        <a href="paper2.pdf" target="_blank">View Full Paper</a>
+      </li>
+      <br>
+
+      <li>
+        Digital Evidence and Its Admissibility in Court Proceedings<br>
+        <span class="meta">Under Review – Law and Technology Journal</span><br>
+        <a href="paper3.pdf" target="_blank">View Full Paper</a>
+      </li>
+    </ol>
+
   </main>
 
   <footer>
-  <p>
-    © 2026 Rajeev Kumar Goel. DNS powered by 
-    <a href="https://www.tencentcloud.com" target="_blank" rel="noopener noreferrer">
-      Tencent Cloud
-    </a>
-  </p>
-</footer>
+    <p>
+      © 2026 Rajeev Kumar Goel. DNS powered by 
+      <a href="https://www.tencentcloud.com" target="_blank" rel="noopener noreferrer">
+        Tencent Cloud
+      </a>
+    </p>
+  </footer>
 
 </body>
 </html>
